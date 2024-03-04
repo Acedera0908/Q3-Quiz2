@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Javascript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<title>ICT Quiz #2</title>
+	<style> 
+		body {
+			background-image: url("https://media.istockphoto.com/id/1281041623/vector/studio-room-background.jpg?s=612x612&w=0&k=20&c=sa4Cmfav9HqximETEl9AuMy5BkMNgwu9c-b4apMm4rA=");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		h1 {
+			font-family: Imprint MT Shadow; serif
+			color: #AFC2C9;
+			text-align: center;
+			font-size: 400%;
+		}
+
+		p {
+			font-family: Cambria Math; serif
+		}
+
+		table {
+			font-family: PT Serif; serif
+			font-weight: bold;
+			font-size: 100%;
+		}
+
+		.img-format {
+			width:180px;
+			height:230px;
+			text-align: center;
+		}
+
+		.navbar {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		img {
+			width: 80px;
+			height: 70px;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+
+		.container {
+			background-color: white;
+			padding-bottom: 5px;
+		}
+
+		.meow {
+			text-align:center;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark"> 
+	  <div class="container-fluid">
+	    <img src="https://images.ctfassets.net/4cd45et68cgf/4nBnsuPq03diC5eHXnQYx/d48a4664cdc48b6065b0be2d0c7bc388/Netflix-Logo.jpg" class="rounded-circle">
+	     <div class="collapse navbar-collapse" id="mynavbar" >
+	      <ul class="navbar-nav me-auto">
+	      	<li class="nav-item">
+	      		<a class="nav-link" href="#">Home</a>
+	      	</li>
+
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Movies</a>
+	          <ul class="dropdown-menu">
+	          	<li> <a class="dropdown-item" href="#"> Action & Adventure </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Anime </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Family </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Classic </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Comedies </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Documentaries </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Dramas </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Horror </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Musicals </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Romantic </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Sci-fi and Fantasy </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Sports </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Thrillers </a> </li>
+	          </ul>
+	         </li>
+
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">TV Shows</a>
+	          <ul class="dropdown-menu">
+	          	<li> <a class="dropdown-item" href="#"> Action & Adventure </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Anime </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Family </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Classic </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Comedies </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Documentaries </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Dramas </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Horror </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Musicals </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Romantic </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Sci-fi and Fantasy </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Sports </a> </li>
+	          	<li> <a class="dropdown-item" href="#"> Thrillers </a> </li>
+	          </ul>
+	         </li>
+
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">New & Popular</a>
+	        </li>
+
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">My List</a>
+	          <ul class="dropdown-menu">
+	          	<li> <a class="dropdown-item" href="#"> Movies </a> </li>
+	          	<li> <a class="dropdown-item" href="#">TV Shows </a> </li>
+	          </ul>
+	        </li>
+	      </ul>
+
+	      	<img src="https://i.pinimg.com/originals/34/62/d2/3462d27440aa255b1c314ff16f4032b4.png" class="rounded-circle">
+	   </div>
+	</div>
+</nav>
+	<div class="container">
+		<div class="table">
+			<table class="table table-bordered"> 
+				<!-- ROW 1 -->
+				<tr class="table-dark">
+					<th> FILM </th>
+					<th> SYNOPSIS </th>
+					<th> CAST </th>
+					<th> REVIEWS </th>
+				</tr>
+				<!-- ROW 2 -->
+				<tr class="table-light">
+					<td> <img class="img-format" src="https://m.media-amazon.com/images/M/MV5BNWZhNGM1ZTItYTg4Zi00MTE2LTg5MjYtYjdmYmZkNTVmYTQwXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg"> </td>
+					<td> <p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ After 19 years as a prisoner, Jean Valjean is freed by Javert, the officer in charge of the prison workforce. Valjean promptly breaks parole but later uses money from stolen silver to reinvent himself as a mayor and factory owner. Javert vows to bring Valjean back to prison. Eight years later, Valjean becomes the guardian of a child named Cosette after her mother's death, but Javert's relentless pursuit means that peace will be a long time coming. </p> </td>
+					<td> <p> Hugh Jackman, Russell Crowe, Anne Hathaway, Amanda Seyfried, Eddie Redmayne, Samantha Barks, Helena Bonham Carter, Sacha Baron Cohen, Aaron Tveit, Daniel Huttlestone </p> </td>
+					<td> <p> <em> michael m on Rotten Tomatoes:</em> <br> <small> <strong>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Rating: 4.5/5 </strong> <br> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ "I love the story of Les Misérables. I've seen the musical performed, a few different adaptations, and I really feel like this big budget musical could have been the definitive version. However, it just doesn't reach that point. There is a lot to love in this adaptation. The costumes, the sets, and (most of) the performances are excellent. Interestingly, while I was most looking forward to the big budget take on things like battle sequences, it's the more intimate moments that the film does best. When it's just one person singing, usually the sad songs, and usually in one take, the movie knocks it out of the park. That being said though, when the movie goes for grander songs like revolution scenes and party scenes, it is both too big and not big enough. The direction is frenetic and hard to handle, but the performances too often don't go big enough. In Master of the House, the camera is all of the place and there's tons of crazy stuff happening, but none of it is that good. On the other hand the star of the show in this scene, Sacha Baron Cohen singing, is surprisingly low key. Then there's Russell Crowe. That was a bad choice. He has the strength and power for the roll, but when he has to sing it's painful. However much of the cast still does great. Eddie Redmayne is surprisingly good, Hugh Jackman was a singer before he was an actor so he's great, Anne Hathaway earned her Oscar, and most of the supporting cast are good. This could have been the definitive version, but ultimately it is just another version. It's a good version though, but a flawed version whose ambition far outweighs its ability. When it stays small it's incredible, but when it tries to be epic it shoots a little too far. It's an odd dichotomy there, but it's still worth seeing for when it is amazing. It's still Les Miz, and I really like Les Miz. It's not the definitive version I would have liked, but it's got enough great moments to make the parts where it falters forgivable." </small> </p> <br>
+					<p> <em> Lauren LaMagna on Rotten Tomatoes: </em> <br> <small> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎<strong> Rating: 6/10 </strong> <br> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ "Despite its faults, the story of "Les Misérables" is timeliness for a reason. There is something special about Claude-Michel Schönberg's music that makes you stand up to attention which makes the film enjoyable in spite of its imperfections." </small> </p></td>
+
+					<!-- ROW 3 -->
+					<tr class="table-light">
+						<td> <img class="img-format" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDOqDQJGXakbNn-Ari-7ZwmGVd3KXSq-OqsPCc42r051ACT1j5"> </td>
+						<td> <p> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  The circumstances surrounding the death of crime novelist Harlan Thrombey are mysterious, but there's one thing that renowned Detective Benoit Blanc knows for sure -- everyone in the wildly dysfunctional Thrombey family is a suspect. Now, Blanc must sift through a web of lies and red herrings to uncover the truth.</p> </td>
+						<td> <p> Ana De Armas, Daniel Craig, Chris Evans, Christopher Plummer, Toni Collette, Katherine Langford, Michael Shannon, Jamie Lee Curtis, Don Johnson, Edi Patterson </p>
+						<td> <p> <em> Manuel São Bento on Rotten Tomatoes: </em> <br> <small> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ <strong> Rating: A </strong>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ <br> Masterfully written dialogue, remarkable editing, and great use of classic cinematography techniques. An entertaining story with tremendous replay value and significant sociopolitical layers that only elevate the already complex yet subtle narrative. </small> </p> <br> <p> <em> serge e on Rotten Tomatoes: </em> <br> <small> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ <strong> Rating: 5/5 </strong> <br> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ This movie is amazing, it just grabs your attention, it simultaneously makes you laugh and lets you hold your breath throughout the course of events, making you want to know the truth! It works thanks to its great plot and fantastic performances... A murder-mystery at its best, I loved it! </small> </p>
+					</tr>
+					<!-- ROW 4 -->
+					<tr class="table-light"> 
+						<td> <img class="img-format" src=https://s.yimg.com/ny/api/res/1.2/Ag2XlC7g.00s_RIGTo1qng--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTExMzg-/https://media.zenfs.com/en/comingsoon_net_477/141c378586de7e0a4676a9f6af6f256f> </td>
+						<td> <p> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  Veteran detective Augustus Landor investigates a series of grisly murders with the help of a young cadet who will eventually go on to become the world-famous author Edgar Allan Poe. </p> </td>
+						<td> <p> Harry Melling, Christian Bale, Lucy Boynton, Gillian Anderson, Toby Jones </p> </td>
+						<td> <p> <em> Prabhjot Bains on Rotten Tomatoes: </em> <br> <small> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ "Though overly reliant on its familiar score, The Pale Blue Eye strikes a rare balance between macabre mystery and prestige drama, embedding itself within a middle ground that never ceases to entice and evoke a powerful sense of pathos." </small> </p> <br> <p> <em> A Shane I on Rotten Tomatoes: </em> <br> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ <strong> Rating: 4.5/5 </strong> <br> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ "A pleasantly pace murder mystery with a fascinating twist at the end. As a writer, Edgar Allen Poe is most known for his works of the Macabre; as a character he is more than that. This film utilized the gothic tone and themes frequently present in Poe's work, with a sprinkling of the supernatural and the ever presence of death the author was known for in the real world. The plot of the film is slower moving and builds its revelations over extensive time. It's investigation of the murder which kickstarts the plot takes a large portion of the opening of the film, as does the establishment and setup of the characters themselves. The payoff for this slower pace is a much more momentous climax and twist, making the pacing well worth it in this viewer's opinion. The acting deserves high praise, particularly from Christian Bale, Harry Melling, and Toby Jones. Harry Melling in particular as a portrayal of Edgar Allan Poe stands out, as it humanizes the author in a way many portrayals don't. Both in the writing of the script and in the character many of the oft forgotten traits of Poe are demonstrated, such as his romanticism, his love of cryptography, his enjoyment of mystery, his sometimes crude poetry, and his military career. The portrayal of Poe is the films greatest strength, and makes the film a must see for fans and scholars of his writings and process. Christian Bale provides a very convincing portrayal of an investigator still racked with grief, while Toby Jones provides an excellent source of surprise dialogue and moments in the film's latter half. The cinematography, set dressing/design, editing, color grading, and lighting are moody and atmospheric, giving the film a production design perfectly befitting the nature of the story portrayed. Overall a solid murder mystery for lovers of Poe Fans, and for those seeking something atmospheric but not overtly grotesque or horrific during the spooky season." </p>
+					</tr>
+				<tr class="table-light"> <td colspan=4 class="meow">  <a href="https://www.netflix.com/"> <span> Load more movies </a>  </span> </td> </tr>
+				</table>
+
+		</div>
+	</div>
+
+	<div class="container">
+		  <form class="d-flex">
+	        <input class="form-control me-2" type="text" placeholder="Search more movies">
+	        <a href="https://www.netflix.com/"> <button class="btn btn-secondary" type="button">Search</button> </a>
+	      </form>
+	</div> <br>
+</body>
+</html>
